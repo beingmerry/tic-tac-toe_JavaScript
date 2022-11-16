@@ -1,0 +1,31 @@
+div#game {
+    border: 2px gray dashed;
+    width: 600px;
+}
+
+td {
+    height: 200px;
+    width:  200px;
+    text-align: center;
+    font-size: 150px;
+   
+}
+td [textContent=""] {
+    cursor: pointer;
+}
+
+td.top{
+    border-bottom: 5px solid black;
+}
+
+td.bottom{
+    border-top: 5px solid black;
+}
+
+td.left{
+    border-right: 5px solid black;
+}
+
+td.right{
+    border-left: 5px solid black;
+}
